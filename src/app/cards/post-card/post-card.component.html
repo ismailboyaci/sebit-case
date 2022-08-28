@@ -1,0 +1,28 @@
+<div class="mt-5">
+  <mat-card class="postCard">
+    <div>
+      <a [routerLink]="'/post/'+posts.id">
+        <h2>{{ posts.title }}</h2>
+      </a>
+      <p>
+        {{
+          posts.description.length > 280
+            ? posts.description.substring(0, 280) + "..."
+            : posts.description
+        }}
+        <button mat-raised-button class="postButton" [routerLink]="'/post/'+posts.id" >read more</button>
+      </p>
+    </div>
+    <div class="authorDiv">
+      <div>
+        <img src="assets/images/profile.png" width="50px" />
+      </div>
+      <div>
+        <p>
+          Written by <strong>{{ posts.author }}</strong>
+        </p>
+        <p>{{ posts.date | date: "MMMM d, y" }}</p>
+      </div>
+    </div>
+  </mat-card>
+</div>

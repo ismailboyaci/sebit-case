@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row mt-5">
+    <div>
+      <p>
+        <a routerLink="/home">Home Page</a>
+      </p>
+      <h2>Filtered post by: {{ searchInput }}</h2>
+    </div>
+  </div>
+  <div class="row" *ngFor="let post of filteredPosts">
+    <app-post-card [posts]="post"></app-post-card>
+  </div>
+</div>

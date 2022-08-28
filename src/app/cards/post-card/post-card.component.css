@@ -1,0 +1,18 @@
+a{
+  text-decoration: none;
+}
+.postCard{
+  margin: 20px 0;
+}
+.authorDiv{
+  display: flex;
+}
+.authorDiv img{
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.postButton{
+  background-color: #7961c9;
+  color: white;
+  margin:4px 4px;
+}

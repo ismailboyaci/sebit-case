@@ -1,0 +1,13 @@
+.example-card {
+  max-width: 510px;
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contentDiv{
+  margin-left: 52px;
+}
+.catLink{
+  text-decoration: none;
+}
+

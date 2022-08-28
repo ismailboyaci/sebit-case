@@ -1,0 +1,8 @@
+.postDiv{
+  display: flex;
+  align-items: center;
+}
+.show{
+  display: none;
+}
+

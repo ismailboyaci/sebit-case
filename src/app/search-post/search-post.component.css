@@ -1,0 +1,24 @@
+.authorDiv{
+  display: flex;
+}
+.authorHead{
+  background-color: blueviolet;
+  color: white;
+  width: fit-content;
+  padding: 0 10px;
+}
+.postDate{
+  color: blueviolet;
+  background-color: antiquewhite;
+  width: fit-content;
+  padding: 0 10px;
+}
+.tags{
+  display: flex;
+  align-items: center;
+}
+.tags button{
+  height: fit-content;
+  border: none;
+  border-radius: 25%;
+}

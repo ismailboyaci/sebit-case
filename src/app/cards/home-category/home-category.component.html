@@ -1,0 +1,13 @@
+<div>
+  <mat-card class="example-card">
+    <div>
+      <img src="assets/icons/{{categoryData.icon}}">
+    </div>
+    <div class="contentDiv">
+      <a [routerLink]="'/view-post/'+categoryData.id" class="catLink">
+        <h2>{{categoryData.name}}</h2>
+      </a>
+      <p>{{categoryData.description}}</p>
+    </div>
+  </mat-card>
+</div>

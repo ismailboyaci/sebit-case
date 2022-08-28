@@ -1,0 +1,19 @@
+<div>
+  <mat-toolbar>
+    <div class="navDiv">
+      <div class="navTitle">
+        <p class="headerTitle">How Can We Help You?</p>
+      </div>
+      <div class="container">
+        <div class="navForm">
+          <form class="searchForm" [formGroup]="searchForm" (ngSubmit)="onSubmit()">
+            <mat-form-field class="mb-5">
+              <mat-icon matPrefix class="headerIcon">search</mat-icon>
+              <input matInput type="text" placeholder="Search for answers" class="headerInput" formControlName="searchInput" >
+            </mat-form-field>
+          </form>
+        </div>
+      </div>
+    </div>
+  </mat-toolbar>
+</div>

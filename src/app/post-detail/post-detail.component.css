@@ -1,0 +1,24 @@
+.authorDiv{
+  display: flex;
+}
+.authorHead{
+  background-color: #7961c9;
+  color: white;
+  width: fit-content;
+  padding: 0 10px;
+}
+.postDate{
+  color: #7961c9;
+  background-color: #f9f9fc;
+  width: fit-content;
+  padding: 0 10px;
+}
+.tags{
+  display: flex;
+  align-items: center;
+}
+.tags button{
+  height: fit-content;
+  border: none;
+  border-radius: 25%;
+}
