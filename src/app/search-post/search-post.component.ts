@@ -11,7 +11,7 @@ import { Post } from '../Models/post.model';
 export class SearchPostComponent implements OnInit {
 
   searchInput:string|null=''
-  filteredPosts: Post[] = [];
+  filteredPosts!: Post[];
   tags:Array<any>=['foo','bar','baz']
 
   constructor(
@@ -30,8 +30,13 @@ export class SearchPostComponent implements OnInit {
     x.title.toLowerCase().includes((this.searchInput!).toLowerCase()) ||
     x.author.toLowerCase().includes((this.searchInput!).toLowerCase())
     )
-   })
+    //sorting the fıltered posts by date
+    this.filteredPosts=this.filteredPosts.sort((objA, objB) =><any>new Date(objB.date) - <any>new Date(objA.date),
+    );
 
+   })
   }
+
+
 
 }

@@ -37,7 +37,7 @@ export class ViewPostComponent implements OnInit {
     //pulling posts by category
     this.httpClient.get('assets/data/posts.json').subscribe((response: any) => {
       this.postsObj = response.posts.filter((x: { category_id: string | null; }) => x.category_id == this.categoryId)
-      console.log(this.postsObj)
+
       //how many posts in this category
       this.postNumber = this.postsObj.length
 
