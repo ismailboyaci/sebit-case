@@ -1,27 +1,28 @@
-# SebitCase
+# Sebit Bootcamp Final Task
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+###
+Front end bootcamp finishing task carried out in partnership with Sebit and Coderspace.
 
-## Development server
+Live [DEMO](https://sebit-task.netlify.app/home)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Used technologies :
+- Angular Js.
+- Bootstrap
+- Angular Material
+- Angular Services
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Screenshots of the completed project can be found below:
 
-## Build
+## Home Page :
+![](https://github.com/ismailboyaci/sebit-case/blob/main/images/homepage.png?raw=true)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Category Posts :
+![](https://github.com/ismailboyaci/sebit-case/blob/main/images/category%20post.png?raw=true)
 
-## Running unit tests
+## Post Detail :
+![](https://github.com/ismailboyaci/sebit-case/blob/main/images/post%20detail.png?raw=true)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Searching Posts :
+![](https://github.com/ismailboyaci/sebit-case/blob/main/images/filtered%20post.png?raw=true)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
